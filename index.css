@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px auto;
+}
+
+section ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+section ul li {
+    list-style: none;
+    background-color: #eee;
+    padding: 12px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+section ul li.actve {
+    background: #03a9f4;
+    color: #fff;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product .itembox {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    display: block;
+}
+
+.product .itembox.hide {
+    display: none;
+}
+
+.product .itembox img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+label {
+    font-weight: bold;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+#tt {
+    background-color: rgb(245, 86, 118);
+}
+
+#total {
+    color: rgb(12, 54, 40)
+}
+
+.list:active {
+    background-color: rgb(241, 37, 122);
+}
+
+.active {
+    background-color: rgb(195, 82, 206);
+}
